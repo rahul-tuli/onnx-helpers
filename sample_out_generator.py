@@ -10,12 +10,7 @@ from sparseml.utils import tensor_export, create_dirs
 from abc import ABCMeta, abstractmethod
 
 """
-Input arguments: 1. ONNX file path, 2. Path to existing export samples 3. optional save directory
-
-Exports samples to same directory that the model is located in under "_sample-inputs" and "_sample-outputs"
-unless the save directory parameter is specified.  
-
-e.x. python export_onnx_samples.py <ONNX-FILE-PATH> <INP-SAMPLES-PATH> <optional-SAVE-DIR>
+Utility Script for generating Sample inputs from sample outputs
 """
 
 
