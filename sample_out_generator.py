@@ -14,7 +14,7 @@ Utility Script for generating Sample inputs from sample outputs
 """
 
 
-class Engine(ABCMeta):
+class Engine(metaclass=ABCMeta):
     @abstractmethod
     def __call__(self, *args, **kwargs):
         pass
