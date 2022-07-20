@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ### Scripts
 
-committed- [Sample Out Generator](./sample_out_generator.py) A script to generate 
+- [Sample Out Generator](./sample_out_generator.py) A script to generate 
 sample outputs from sample inputs and a given 
 ONNX file, supports both DeepSparse and ONNX Runtime Engine. Inspired from an original version by 
 [Ben Fineran](https://github.com/bfineran). Find more about the usage by `python3 sample_out_generator.py --help`
